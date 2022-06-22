@@ -1,0 +1,10 @@
+public enum Qualification {
+    FOUR_YEARS_OF_ELEMENTARY,
+    ELEMENTARY,
+    HIGH_SCHOOL,
+    UNIVERSITY,
+    THREE_YEARS_UNI,
+    MASTERS,
+    PHD,
+    POST_MED_SPECIALIZATION,
+}
