@@ -1,4 +1,4 @@
-public class Guest {
+public class Guest extends User{
     protected String email;
     protected String passport_number;
 
@@ -16,5 +16,10 @@ public class Guest {
 
     public void setPassport_number(String passport_number) {
         this.passport_number = passport_number;
+    }
+
+    @Override
+    protected int calculateSalary() {
+        return 0;
     }
 }
